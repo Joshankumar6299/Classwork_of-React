@@ -22,7 +22,7 @@ class PropExample extends React.Component{
     const {text,disabled,items} = this.state;
     return(
         <div>
-            <MyButton
+            <MyButton 
                  text={text}
                 disabled={disabled} />
 
