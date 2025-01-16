@@ -11,7 +11,7 @@ function ApiCallSimulation() {
 function Exercise() {
     const [id, setId] = React.useState("loading...");
     const [user, setUser] = React.useState("loading...");
-    const [name, setName] = React.useState("loading...");
+    const [name, setName] = React.useState(["loading..."]);
 
     React.useEffect(() => {
         ApiCallSimulation().then((data) => {
