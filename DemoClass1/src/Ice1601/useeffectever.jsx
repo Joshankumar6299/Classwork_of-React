@@ -8,7 +8,7 @@ function ApiCallSimulation(){
 }
 function ApiTesting(){
     const [id, setId] = React.useState("loading...");
-    const [name, setname] = React.useState("loadingq...");
+    const [name, setname] = React.useState("loading...");
     React.useEffect(() => {
         ApiCallSimulation().then((user) => {
             setId(user.id);
