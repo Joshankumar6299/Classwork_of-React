@@ -5,7 +5,10 @@ import './index.css'
 // import StateMerge from './Ice2612/stateMerge'
 // import PropExample from './Ice2612/propExamp1'
 // import ApiTesting from './Ice1601/useeffectever'
-import Exersice from './Ice1601/exersice'
+// import Exersice from './Ice1601/exersice'
+import ReqCancel from './Ice2201/Classexample'
+import Carouselexe from './Ice2201/Carouselexe'
+import CarouselApp from './Ice2201/Carouselexe'
 
 
 
@@ -16,7 +19,9 @@ createRoot(document.getElementById('root')).render(
     <StateMerge/>
     <PropExample/> */}
     {/* <ApiTesting/> */}
-    <Exersice/>
+    {/* <Exersice/> */}
+    {/* <ReqCancel/> */}
+    <CarouselApp/>
 
   </StrictMode>,
 )
