@@ -5,10 +5,10 @@ const dbfun1 = (req , res) => {
         "Select * from table1 where id = $1",
         [req.params.id],
         (err , result) => {
-            if(err){
+            if(err) throw err.
                 console.log("Error executing query", err.stack);
-                
-            }
+            
         }
     )
 }
+module.exports={dbfun1}

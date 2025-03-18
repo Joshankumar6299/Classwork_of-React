@@ -1,14 +1,14 @@
-const pool = require('pg').pool;
+const Pool = require('pg').Pool;
 function connectionObj(){
-    return  pool= new pool({
+    return  new Pool({
         user : 'postgres',
         host : 'localhost',
         database : 'mydbexpress',
-        password : 'joshan1234',
+        password : 'Jkm1234',
         port : 5432,
         max : 100
     });
-    return pool;
+    return Pool;
 
 }
 module.exports = {connectionObj};
